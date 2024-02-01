@@ -26,7 +26,7 @@ public class Main {
                 if(e.getSource() == button){
                     JColorChooser colorChooser = new JColorChooser();
                     Color color = JColorChooser.showDialog(null,"Pick a Color", Color.BLACK);
-                    label.setForeground(color);
+                    panel.setBackground(color);
                 }
             }
         });
